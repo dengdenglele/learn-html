@@ -1,0 +1,30 @@
+a {
+    color: green;
+    text-decoration: underline dotted;
+}
+
+p {
+    color: magenta;
+    text-decoration: underline dashed
+}
+
+li {
+    color: orange;
+    text-decoration: underline;
+}
+
+#bamberg {
+    color: blue;
+}
+
+.firsttwo {
+    text-decoration: none;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.red {
+    color: red;
+}

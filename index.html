@@ -3,7 +3,8 @@
 
 <head>
     <link href="style.css" rel="stylesheet">
-    <meta charset="UTF-u">
+    <link href="specificity.css" rel="stylesheet">
+    <meta charset="UTF-8">
     <title>Hallo, Titel</title>
 </head>
 
@@ -64,6 +65,26 @@
             pattern=".+@.+\.uni-bamberg\.de">
         <button>Registrieren</button>
     </form>
+
+    <p>
+    <ul class="left large">
+        <li>Inline-Styles (style=”…") haben die höchste Spezifität</li>
+        <li>IDs (#element) haben eine höhere Spezifität als Klassen</li>
+        <li>Klassen (.element) haben eine höhere Spezifität als Tags</li>
+        <li>Tag-Selektoren (wie p, div) haben die niedrigste Spezifität</li>
+        <li>Bei gleicher Spezifität gilt die Regel, die zuletzt im Code steht.</li>
+    </ul>
+    </p>
+
+    <p class="large">
+        Welcome to my home page!
+        <a class="firsttwo bold red" id="bamberg" href="https://www.uni-bamberg.de/">Bamberg</a> und
+        <a class="firsttwo red" href="https://www.harvard.edu/">Harvard</a>
+    </p>
+    <p>
+        <a href="https://www.uni-bamberg.de/">Bamberg</a> und
+        <a href="https://www.harvard.edu/">Harvard</a>
+    </p>
 
 
     <footer class="small">
