@@ -1,3 +1,13 @@
+td {
+    text-align: right;
+    color: brown;
+}
+
+thead {
+    text-decoration: line-through;
+    text-align: left;
+}
+
 a {
     color: green;
     text-decoration: underline dotted;
